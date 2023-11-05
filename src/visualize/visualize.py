@@ -7,7 +7,7 @@ import numpy as np
 from transformers import pipeline
 from sentence_transformers import SentenceTransformer, util
 from predict_model import predict
-from train_tagger_model import train_span_model
+from train_span_model import train_span_model
 
 torch.manual_seed(420)
 
